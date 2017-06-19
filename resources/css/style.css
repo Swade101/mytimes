@@ -1,0 +1,149 @@
+header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+  position: fixed;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: MediumAquamarine;
+  padding: 10px;
+}
+
+.logo p {
+  padding: 10px;
+}
+
+nav li {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.maincontent {
+  position: relative;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-top: 100px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  z-index: 5;
+}
+
+#large {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid black;
+}
+
+.column.large {
+  display: flex;
+  flex-flow: column;
+  width: 630px;
+  border: 2px solid black;
+}
+
+.mainbanner {
+  display: flex;
+  background-image: url("../images/mainstory.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainbanner p{
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.fall {
+  background-image: url("../images/fall.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fall p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.cameraman {
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url("../images/cameraman.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cameraman p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#medium {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid black;
+}
+
+.column.medium {
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.cat {
+  display: flex;
+  height: auto;
+  background-image: url("../images/cat.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cat p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#small {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid black;
+}
+
+.column.small {
+  display: flex;
+  flex-flow: column;
+  width: 240px;
+  border: 2px solid black;
+}
